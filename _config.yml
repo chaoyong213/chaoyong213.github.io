@@ -5,7 +5,7 @@ description: 欢迎来到我的个人站~
 # 头像里面的标题
 avatarTitle: houtain
 # 头像里面的描述
-avatarDesc: 互聯網 /物聯網 / 編程學習
+avatarDesc: 互聯網 /物聯網
 url: "https://chaoyong213.github.io"
 
 # 博客是否自动生成目录，false为不生成
@@ -13,8 +13,8 @@ enableToc: true
 
 # Comment
 comment:
-    # livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
-    disqus: leopard
+    livere: MTAyMC81MzM1MC8yOTgyNA==  # https://www.livere.com
+    # disqus: leopard
     # uyan: 2143225  # 有言id,登录有言官网申请
 
 # Social
