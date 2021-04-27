@@ -1,12 +1,12 @@
 # Basic
-title: 潘柏信
+title: 後天
 subtitle: 个人站
 description: 欢迎来到我的个人站~
 # 头像里面的标题
-avatarTitle: leopardpan
+avatarTitle: houtain
 # 头像里面的描述
-avatarDesc: iOS / 机器学习
-url: "https://leopardpan.cn"
+avatarDesc: 互聯網 /物聯網 / 編程學習
+url: "https://chaoyong213.github.io"
 
 # 博客是否自动生成目录，false为不生成
 enableToc: true
@@ -19,24 +19,24 @@ comment:
 
 # Social
 social:
-    weibo: 5366874726 
-    github: leopardpan
-    # zhihu: panpanleopard
+    # weibo: 後天
+    github: chaoyong213
+    # zhihu: xxx
     # juejin: xxx
-    jianshu: 2ada30d8d0f7
+    #jianshu: xxx
     # twitter: 
-    mail: leopardpan@icloud.com
+    mail: chaoyong213@126.com
 
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
 baidu:
-    id: 8ba1c6be0953b6f9c2ba38e57f615421  
+    id: chaoyong213
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
 ga:
-    id: UA-84134159-3  
+    id: UA-chaoyong213-3
     host: auto  
 
 
@@ -44,7 +44,7 @@ ga:
 #
 #
 #  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
+#  帮忙star一下，感谢~😆 地址： https://github.com/chaoyong213/chaoyong213.github.io
 #
 #
 # 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
