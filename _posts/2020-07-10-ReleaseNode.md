@@ -25,7 +25,7 @@ tags: jekyll
 * 2017-3-19 增加打赏公共
 * 2017-9-8 多说评论系统停服，切换到disqus评论（多说上的评论全没了😭）
 * 2019-1-25 增加博客底部社交链接
-* 2020-7-8 博客域名从 [http://baixin.io](http://baixin.io) 迁移到 [https://chaoyong213.github.io](https://chaoyong213.github.io) （baixin.io没法备案之前的统计也全没了😭）.
+* 2020-7-8 博客域名从 [http://chaoyong213.github.io](http://chaoyong213.github.io) 迁移到 [https://chaoyong213.github.io](https://chaoyong213.github.io) （chaoyong213.github.io没法备案之前的统计也全没了😭）.
 * 2020-7-13 增加文章自动生成目录功能, 增加livere评论系统
 
 ## 博客更新手册

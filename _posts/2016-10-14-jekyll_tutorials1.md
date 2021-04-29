@@ -279,7 +279,7 @@ Configuration file: /Users/baixinpan/Desktop/OpenSource/Mine/Page-Blog/chaoyong2
 ### Q&A 
 
 > 问题：最近很多朋友使用我的模板报警告：The CNAME `chaoyong213.github.io` is already taken
-> 解决：把CNAME里面的baixin.io修改成你自己的域名，如果你暂时没有域名，CNAME里面就什么都不用谢。（之前没人反馈过这个问题，应该是github page最近才最的限制。）
+> 解决：把CNAME里面的chaoyong213.github.io修改成你自己的域名，如果你暂时没有域名，CNAME里面就什么都不用谢。（之前没人反馈过这个问题，应该是github page最近才最的限制。）
 
 
 
