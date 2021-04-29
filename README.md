@@ -1,5 +1,5 @@
 
-[leopard](https://chaoyong213.github.io) 是一个简洁的博客模板，响应式主题， 适配了电脑、手机各种屏幕，看效果直接点击下面链接
+[這](https://chaoyong213.github.io) 是一个简洁的博客模板，响应式主题， 适配了电脑、手机各种屏幕，看效果直接点击下面链接
  
  * [博客链接](https://chaoyong213.github.io) （部署在国内，访问更快）
  * [Demo链接](https://chaoyong213.github.io/) （部署在github page）
@@ -40,12 +40,12 @@
 > $ jekyll server
 
 在浏览器输入 [127.0.0.1:4000](127.0.0.1:4000) ， 就可以看到博客效果了。
-
+> ```shell
 > 遇到的問題解決方案
 > bundle config mirror.https://rubygems.org https://gems.ruby-china.com
 > sudo bundle update
 > sudo bundle exec jekyll serve -w -H 0.0.0.0
-
+ ```
 
 
 ### 提示
