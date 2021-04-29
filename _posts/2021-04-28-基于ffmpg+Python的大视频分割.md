@@ -152,17 +152,17 @@ brew reinstall ffmpeg --with-freetype
 
 参数说明：
 
-[1] -filter_complex: 滤镜组合
++ -filter_complex: 滤镜组合
 
-- main_w:视频宽度
+    - main_w:视频宽度
 
-- main_h : 视频高度
+    - main_h : 视频高度
 
-- overlay_w: 图片水印宽度
+    - overlay_w: 图片水印宽度
 
-- overlay_w: 图片水印宽度
+    - overlay_w: 图片水印宽度
 
-[2] -s 1280*720 指定目标视频的size屏幕尺寸，即720P格式。当然原视频的分辨率是高于它的。
++ -s 1280*720 指定目标视频的size屏幕尺寸，即720P格式。当然原视频的分辨率是高于它的。
 
 4.4.2 左下角位置
 指定x和y参数即可，命令如下：
