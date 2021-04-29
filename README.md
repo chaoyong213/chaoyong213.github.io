@@ -41,6 +41,12 @@
 
 在浏览器输入 [127.0.0.1:4000](127.0.0.1:4000) ， 就可以看到博客效果了。
 
+> 遇到的問題解決方案
+> bundle config mirror.https://rubygems.org https://gems.ruby-china.com
+> sudo bundle update
+> sudo bundle exec jekyll serve -w -H 0.0.0.0
+
+
 
 ### 提示
 
@@ -57,6 +63,3 @@
 搭建博客如果遇到问题可以看看我教程[Jekyll搭建个人博客](https://chaoyong213.github.io/2016/10/jekyll_tutorials1/)。
 
 
-#### 感謝
-
-本博客在[Vno Jekyll](https://github.com/onevcat/vno-jekyll)基础上修改的。  
