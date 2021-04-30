@@ -33,25 +33,26 @@
 
 > $ git clone https://github.com/chaoyong213/chaoyong213.github.io.git
 
-或者直接[下载博客](https://github.com/chaoyong213/chaoyong213.github.io/archive/master.zip)
+或者直接[下载博客](https://github.com/chaoyong213/chaoyong213.github.io/archive/refs/heads/main.zip)
 
 进chaoyong213.github.io/ 目录下， 开启本地服务
 
 > $ jekyll server
 
 在浏览器输入 [127.0.0.1:4000](127.0.0.1:4000) ， 就可以看到博客效果了。
+
 > ```shell
 > 遇到的問題解決方案
 > bundle config mirror.https://rubygems.org https://gems.ruby-china.com
 > sudo bundle update
 > sudo bundle exec jekyll serve -w -H 0.0.0.0
- ```
+    ```
 
 
 ### 提示
 
->* 如果你想使用我的模板，请把 _posts/ 目录下的文章都去掉。
->* 修改 _config.yml 文件里面的内容为你自己的个人信息。
+> * 如果你想使用我的模板，请把 _posts/ 目录下的文章都去掉。
+> * 修改 _config.yml 文件里面的内容为你自己的个人信息。
 
 如果在部署博客的时候发现问题，可以直接在[Issues](https://github.com/chaoyong213/chaoyong213.github.io/issues)里面提问。
 
