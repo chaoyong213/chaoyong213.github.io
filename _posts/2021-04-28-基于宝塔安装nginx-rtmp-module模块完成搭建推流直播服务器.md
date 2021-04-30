@@ -29,13 +29,13 @@ yum -y install wget gcc-c++ ncurses ncurses-devel cmake make perl bison openssl 
 
 `/www/server/panel/install`
 
-![image](/images/bt/bn1.png)
+![image](/images/posts/bt/bn1.png)
 
 找到 nginx.sh 打开编辑，查找 export LD_LIBRARY_PATH=/usr/local/lib/:$LD_LIBRARY_PATH  ，在它下面有 ./configure  ，这这个代码后面加入
 
 `--add-module=/www/server/nginx-rtmp-module`
 
-![image](/images/bt/bn2.jpg)
+![image](/images/posts/bt/bn2.jpg)
 
 保存即可，如果不想通过宝塔面板来编辑也可以直接再终端输入
 
@@ -55,14 +55,14 @@ yum -y install wget gcc-c++ ncurses ncurses-devel cmake make perl bison openssl 
 
 查看是否安装成功
 
-![image](/images/bt/b3.jpg)
+![image](/images/posts/bt/b3.jpg)
 
 返回宝塔面板新建网站，记住网站目录路径，我们进入网站目录后新建一个live文件夹，复制live文件夹的路径
 
-![image](/images/bt/bn4.jpg)
+![image](/images/posts/bt/bn4.jpg)
 
-![image](/images/bt/b5.png)
-![image](/images/bt/bn6.jpg)
+![image](/images/posts/bt/b5.png)
+![image](/images/posts/bt/bn6.jpg)
 
 打开/www/server/nginx/conf/nginx.conf文件，或者进入宝塔软件商店中nginx的“配置修改”栏目
 在nginx.conf中添加以下内容（与http同级）:
@@ -88,13 +88,13 @@ rtmp {
 ```
 
 
-![image](/images/bt/b7.jpg)
+![image](/images/posts/bt/b7.jpg)
 
 注意:hls_path目录需要可读可写的权限。
 
 解析来我们就可以使用obs等推流软件进行推流直播，下面以obs为例
 
-![image](/images/bt/b6.jpg)
+![image](/images/posts/bt/b6.jpg)
 
 此时你的服务器ip就是推流地址
 
@@ -106,5 +106,5 @@ http(s)://域名/live/index.m3u8
 
 接下来我们使用live在线解析播放器解析m3u8地址就可以了，live在线解析播放器源码地址我放在下面了
 
-![image](/images/bt/b8.jpg)
+![image](/images/posts/bt/b8.jpg)
 
