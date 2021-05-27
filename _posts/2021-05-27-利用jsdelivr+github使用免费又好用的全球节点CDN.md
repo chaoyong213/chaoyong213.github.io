@@ -14,9 +14,13 @@ tag: github
 1.注册github账号 官方地址 https://github.com/
 2.创建公开项目，如我创建了demo项目
 3.我们上传一个jquery-1.8.3.js做测试，点击按钮上传到github（正常请使用git工具提交）
+
 ![image](/images/posts/github/2.jpg)
+
 3.上传成功后点击Releases创建一个版本号，如1.0.0(可省略，版本号不是必需的，是为了区分新旧资源)
+
 ![image](/images/posts/github/3.png)
+
 ![image](/images/posts/github/3.jpg)
 
 >jsdelivr的格式是 https://cdn.jsdelivr.net/gh/chaoyong213/demo/jquery-1.8.3.js
