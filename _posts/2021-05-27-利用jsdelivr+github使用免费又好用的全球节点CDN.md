@@ -20,7 +20,7 @@ tag: github
 3.上传成功后点击Releases创建一个版本号，如1.0.0(可省略，版本号不是必需的，是为了区分新旧资源)
 
 ![image](/images/posts/github/3.png)
-
+---
 ![image](/images/posts/github/3.jpg)
 
 >jsdelivr的格式是 https://cdn.jsdelivr.net/gh/chaoyong213/demo/jquery-1.8.3.js
