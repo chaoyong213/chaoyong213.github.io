@@ -21,15 +21,15 @@ tag: winform
 ### 部署细节截图
 
 1、创建一个基础的Winform应用，并使用NuGet引用CefSharp包。使用Nuget添加引用，搜索CefSharp，添加CefSharp.WinForm，CefSharp.Winform依赖好几个包，这块选择这一个安装就可以了，NuGet会自动帮你把其他依赖的包一并下载好的。
-![image](../images/posts/winform/w1.png)
+![image](/images/posts/winform/w1.png)
 安装完你本地的Packages文件夹里有如下文件：
-![image](../images/posts/winform/w2.png)
+![image](/images/posts/winform/w2.png)
 **官方文档建议**：安装完NuGet包之后，关闭vs然后重新打开，避免VS自带的智能感知引用有问题
-![image](../images/posts/winform/w3.png)
+![image](/images/posts/winform/w3.png)
 2、在简介方案上右键—》选择配置管理—》修改目标平台为x86或x64
-![image](../images/posts/winform/w4.png)
+![image](/images/posts/winform/w4.png)
 选择x86或x64
-![image](../images/posts/winform/w5.png)
+![image](/images/posts/winform/w5.png)
 3、在你的窗体Form1窗体里添加相应代码，参考Using CEF (as Browser)中的代码。
 
 ### Using CEF (as Browser)
@@ -96,15 +96,15 @@ namespace embebbedChromium
 
 ```
 
-![image](../images/posts/winform/w6.png)
+![image](/images/posts/winform/w6.png)
 
 ### Using CEF (as User Interface)
 这块参考官方文档：[传送门](https://ourcodeworld.com/articles/read/173/how-to-use-cefsharp-chromium-embedded-framework-csharp-in-a-winforms-application)，做了部分内容的完善，这块我理解的就是提供了一个js调用C#类方法的一个示例。
 
 1、下载Bootstrap相关的文件，[传送门](https://getbootstrap.com/docs/3.3/getting-started/)
-![image](../images/posts/winform/w7.png)
+![image](/images/posts/winform/w7.png)
 2、将下载好的Bootstrap文件夹复制拷贝到你的VS项目中，并添加html文件夹，在里面新建一个index.html文件，具体如下图所示：
-![image](../images/posts/winform/w8.png)
+![image](/images/posts/winform/w8.png)
 
 html文件内容参考这里：[传送门](https://getbootstrap.com/docs/3.3/getting-started/)，网页下方有示例，也有模板可以下载。
 ```
@@ -263,4 +263,4 @@ namespace embebbedChromium
 
 ```
 6、运行查看效果，如下图所示
-![image](../images/posts/winform/w9.png)
+![image](/images/posts/winform/w9.png)
