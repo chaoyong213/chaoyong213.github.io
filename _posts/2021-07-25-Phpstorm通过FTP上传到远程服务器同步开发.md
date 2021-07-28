@@ -2,7 +2,7 @@
 layout: post
 title: Phpstorm通过FTP上传到远程服务器同步开发
 date: 2021-07-25
-tags: jekyll   
+tags: ftp   
 ---
 
 ### Phpstorm通过FTP上传到远程服务器同步开发
