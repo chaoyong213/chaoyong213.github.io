@@ -35,6 +35,7 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
 - [x] 安装docker-composer
+
 ```shell
 curl -L https://get.daocloud.io/docker/compose/releases/1.25.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose;
 #为安装脚本添加执行权限：
