@@ -30,5 +30,25 @@ layout: default
   </ol>
 
   {% include pagination.html %}
-
+<audio id="bgmusic" src="/images/haikuotiankong.mp3" autoplay preload loop></audio>
+  <script src="http://res.wx.qq.com/open/js/jweixin-1.4.0.js" type="text/javascript"></script>
+ <script>
+    window.onload = function(){
+      function autoPlayAudio() {
+            wx.config({
+                 wx.ready
+                debug: false
+                , appId: ''
+                , timestamp: 1
+                , nonceStr: ''
+                , signature: ''
+                , jsApiList: []
+            });
+            wx.ready(function () {
+              document.getElementById("bgmusic").play();
+            });
+        }
+    autoPlayAudio();
+  }
+  </script>
 </div>
