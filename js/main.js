@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-
+  console.log("%c hello,欢迎光临！","color:#fff; background: linear-gradient(270deg, #986fee, #8695e6, #68b7dd, #18d7d3); padding: 8px 15px; border-radius: 0 10px 0 10px")
   $('a.blog-button').click(function() {
     // If already in blog, return early without animate overlay panel again.
     if (location.hash && location.hash == "#blog") return;
