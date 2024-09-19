@@ -35,7 +35,7 @@ console.log("\n %c 静态音乐播放器 v1.0 %c aabbcc \n", "color: #fadfa3; ba
 var local = false;
 
 if (typeof userId === 'undefined') {
-  var userId = "8152976493"; // 替换为实际的默认值
+  var userId = "12465955978"; // 替换为实际的默认值
 }
 if (typeof userServer === 'undefined') {
   var userServer = "netease"; // 替换为实际的默认值
