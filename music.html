@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>用音乐感染人心</title>
+  <link rel="stylesheet" type="text/css" href="./css/APlayer.min.css">
+  <link rel="stylesheet" type="text/css" href="./main.css">
+  <link rel="icon" type="image/x-icon" href="./img/icon.webp">
+  <link rel="apple-touch-icon" href="./img/icon-r.webp">
+  <meta name="apple-mobile-web-app-title" content="音乐">
+  <link rel="bookmark" href="./img/icon.webp">
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="./img/icon-r.webp">
+  <meta name="description" content="一个简单好用的音乐播放器。">
+</head>
+<body>
+<div id="music_bg"></div>
+<div id="heoMusic-page">
+</div>
+<script>
+  var userId = "12465955978";
+  var userServer = "netease";
+  var userType = "playlist";
+  // var localMusic = [{
+  //     name: '重生之我在异乡为异客',
+  //     artist: '王睿卓',
+  //     url: '/music/重生之我在异乡为异客.mp3',
+  //     cover: '/music/重生之我在异乡为异客.png',
+  //     lrc: '/music/重生之我在异乡为异客.lrc'
+  // },
+  // {
+  //     name: '落',
+  //     artist: '唐伯虎',
+  //     url: '/music/落.mp3',
+  //     cover: '/music/落.png',
+  //     lrc: '/music/落.lrc'
+  // }
+  // ];
+  // var remoteMusic = "./musiclist.json"
+</script>
+<script src="./js/APlayer.min.js"></script>
+<script async data-pjax src="./js/main.js"></script>
+
+<style type="text/css">
+  #heoMusic-page .aplayer-info .aplayer-lrc p{
+    font-family: 华文行楷;
+    color: #E91E63;
+    background: -webkit-linear-gradient(75deg,
+        #2eaf8d,
+        #2f6ae6 25%,
+        #347ba6 50%,
+        #16d225 55%,
+        #4cc410 60%,
+        #bb2c10 80%,
+        #2f63a4 95%,
+        #28dfd4);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-background-size: 200% 100%;
+    -webkit-animation: flowCss 5s infinite linear;
+  }
+  @-webkit-keyframes dajianshiFlow {
+    0% {
+      /* 移动背景位置 */
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -400% 0;
+    }
+  }
+  #heoMusic-page .aplayer-info .aplayer-lrc .aplayer-lrc-current {
+    -webkit-animation: dajianshiFlow 3s infinite linear;
+  }
+</style>
+</body>
+</html>
+
